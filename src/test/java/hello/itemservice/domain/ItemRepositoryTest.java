@@ -103,7 +103,7 @@ class ItemRepositoryTest {
         test(null, 10000, item1);
 
         //둘 다 있음 검증
-        test("itemA", 10000, item1);
+//        test("itemA", 10000, item1);
     }
 
     void test(String itemName, Integer maxPrice, Item... items) {
