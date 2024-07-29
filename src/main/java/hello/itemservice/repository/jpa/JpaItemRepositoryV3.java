@@ -61,7 +61,7 @@ public class JpaItemRepositoryV3 implements ItemRepository {
             builder.and(item.price.loe(maxPrice));
         }
 
-        List<Object> result = query
+        List<Item> result = query
                 .select(item)
                 .from(item)
                 .where(builder)
